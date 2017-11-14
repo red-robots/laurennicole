@@ -1,0 +1,8 @@
+[14-Sep-2015 10:42:14 UTC] PHP Fatal error:  Call to undefined function post_password_required() in /home/laurennicoleinc/public_html/wp-content/themes/laurennicoledesign/comments.php on line 20
+[17-Dec-2015 04:16:54 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/laurennicoleinc/public_html/wp-content/themes/laurennicoledesign/index.php on line 8
+[25-Oct-2016 15:53:17 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bellaworks/public_html/wp-content/themes/laurennicoledesign/404.php on line 10
+[14-Dec-2016 18:03:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bellaworks/public_html/wp-content/themes/laurennicoledesign/index.php on line 8
+[17-Mar-2017 09:09:41 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bellaworks/public_html/wp-content/themes/laurennicoledesign/404.php on line 10
+[23-Mar-2017 17:20:33 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bellaworks/public_html/wp-content/themes/laurennicoledesign/404.php on line 10
+[28-Mar-2017 18:28:21 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bellaworks/public_html/wp-content/themes/laurennicoledesign/404.php on line 10
+[31-Mar-2017 23:45:03 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bellaworks/public_html/wp-content/themes/laurennicoledesign/404.php on line 10

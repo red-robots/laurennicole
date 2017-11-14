@@ -1,0 +1,25 @@
+/* Pagination
+-------------------------------------------------------------- */
+.navigation {
+	width: 100%;
+	clear: both;
+	margin: 50px 0 50px 0;
+}
+.navigation li a, .navigation li a:hover, .navigation li.active a, .navigation li.disabled {
+	color: #fff;
+	text-decoration:none;
+}
+.navigation li {display: inline;}
+.navigation li a, .navigation li a:hover, .navigation li.active a, .navigation li.disabled {
+	background-color: rgba(98,179,67,.5);
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 12px;
+	padding: 0.75rem;
+	transition: background-color 0.3s ease;
+}
+.navigation li a:hover, .navigation li.active a { background-color: rgba(98,179,67,1); }
+img#wpstats {
+	display: block;
+	margin: 0 auto 24px;
+}

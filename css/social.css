@@ -1,0 +1,171 @@
+/* Social CSS */
+#sociallinks {
+	position: relative;
+	z-index: 6;	
+	margin: 10px auto;
+	height: 35px;
+	display: inline-block;
+}
+
+.socialone{width: 52px;}
+.socialtwo{width: 75px;}
+.socialthree{width: 120px;}
+.socialfour{width: 157px;}
+.socialfive{width: 200px;}
+.socialsix{width: 240px;}
+
+#sociallinks  ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	z-index: 2;	
+	position: relative;
+}
+
+#sociallinks  ul li {
+	float: left;
+	position: relative;
+	margin: 0px 0px 0 1px;
+	text-align: left;
+	list-style: none;
+	background-image: none;
+	padding: 0;
+}
+
+#sociallinks  ul a {
+	text-decoration: none;
+	background-image: url(../images/social-new.png);
+	background-repeat: no-repeat;
+	background-size: 240px 70px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height:35px;
+	width:39px;
+	text-indent: -9000px;
+	position: relative;
+}
+	#sociallinks  .facebook a {
+	background-position: -0px -0px;
+}
+	
+#sociallinks .facebook a:hover {
+	background-position: -0px -35px;
+}
+#sociallinks  .twitter a {
+	background-position: -38px -0px;
+}
+#sociallinks .twitter a:hover {
+	background-position: -38px -35px;
+}
+#sociallinks  .pintrest a {
+	background-position: -76px 0px;
+}
+	
+#sociallinks  .pintrest a:hover {
+	background-position: -76px -35px;
+}
+#sociallinks  .instagram a {
+	background-position: -115px -0px;
+}
+	
+#sociallinks .instagram a:hover {
+	background-position: -115px -35px;
+}
+#sociallinks  .youtube a {
+	background-position: -153px -0px;
+}
+	
+#sociallinks .youtube a:hover {
+	background-position: -153px -35px;
+}
+#sociallinks  .cart a {
+	background-position: -192px -0px;
+}
+	
+#sociallinks .cart a:hover {
+	background-position: -192px -35px;
+}
+
+
+#share-cont {
+	width: 100%;
+	margin: 20px 0 30px 0;
+	overflow: hidden;
+}
+#share-cont h3 {
+	line-height: 2.181818182;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #636363;
+}
+#share {
+	position: relative;
+	z-index: 6;	
+	margin: 10px auto;
+	height: 35px;
+	width: 135px;
+	display: inline-block;
+}
+#share  ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	z-index: 2;	
+	position: relative;
+}
+
+#share  ul li {
+	float: left;
+	position: relative;
+	margin: 0px 0px;
+	text-align: left;
+	list-style: none;
+	background-image: none;
+	padding: 0;
+}
+
+#share  ul a {
+	text-decoration: none;
+	background-image: url(../images/share.png);
+	background-repeat: no-repeat;
+	background-size: 105px 70px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height:35px;
+	width:35px;
+	text-indent: -9000px;
+	position: relative;
+}
+#share  .facebook a {
+	background-position: -0px -0px;
+}
+#share .facebook a:hover {
+	background-position: -0px -35px;
+}
+#share  .twitter a {
+	background-position: -35px -0px;
+}
+#share .twitter a:hover {
+	background-position: -35px -35px;
+}
+#share  .pintrest a {
+	background-position: -70px -0px;
+}
+#share .pintrest a:hover {
+	background-position: -70px -35px;
+}
+/* Minimum width of 600 pixels. */
+@media screen and (min-width: 600px) {
+	#sociallinks {
+		margin: 10px 0 10px 0;
+		float: right;
+	}
+	#share {
+		margin: 0px 0 0 0;
+		float: left;
+	}
+}
+/* Minimum width of 960 pixels. */
+@media screen and (min-width: 1140px) {
+	
+}
