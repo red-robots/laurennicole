@@ -38,7 +38,7 @@ $i = 0;
       <div class="image">
         <?php 
           if ( has_post_thumbnail()  ) {
-            the_post_thumbnail('bigmed');
+            the_post_thumbnail('bigmedhard');
           } else {
              echo '<img src="';
              echo catch_that_image();
