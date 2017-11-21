@@ -17,7 +17,8 @@ add_image_size('slider', 1200, 430,true);
 //add_image_size('portfolio', 500, 500,array('center','center'));
 add_image_size('portfolio-three', 300, 300,array('center','center'));
 add_image_size('bigmed', 400, 400,array('center','center'));
-add_image_size('bigmedhard', 500, 500,array('center','center', true));
+add_image_size('bigmedhard', 500, 500, true);
+//add_image_size('bigmedhard', 500, 500, true);
 add_image_size('portsingle', 600, 9999);
 add_image_size('services', 520, 400,array('center','center'));
 

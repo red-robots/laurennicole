@@ -142,15 +142,17 @@
 	clear: both;
 }
 .main-navigation li {
-	
+	margin: 0 0 10px 0;
 	
 }
 .main-navigation a {
-	
+	text-decoration: none;
+	margin: 0 0 10px 0;
+	display: block;
 }
 .main-navigation li a {
 	color: #fff;
-	border-bottom: 2px solid #fff;
+	
 }
 .main-navigation li a:hover {
 	color: #61B245;
@@ -243,6 +245,8 @@
 		line-height: 1;
 		white-space: nowrap;
 		padding: 0 10px 0 10px;
+		// border-bottom: 2px solid #fff;
+		margin: 0
 	}
 	.dim li a {
 		color: rgba(255,255,255,.5);
